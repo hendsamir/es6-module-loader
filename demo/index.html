@@ -40,6 +40,8 @@
     </pre>
     <button onclick="buttonClick()">Load test2</button>
     <p>Note that if you click on the button again, a new Foo module will be created, but 'test2' will not be reloaded.</p>
+
+    <button onclick="sourceMapClick()">Load source1</button>
   </div>
   <footer>
   </footer>
@@ -59,6 +61,13 @@
       // dynamic loading API
       System.import('test2').then(function(module) {
         new module.Foo();
+      });
+    }
+
+    function sourceMapClick() {
+      // dynamic loading API
+      System.import('source1').then(function(module) {
+        module.things.updateThing('1', 1);
       });
     }
   </script>
