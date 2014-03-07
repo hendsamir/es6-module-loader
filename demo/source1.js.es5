@@ -1,14 +1,26 @@
-var hello = __moduleDependency0["hello"];
-var things = __exports["things"] = {
-  '1': 0,
-  '2': 0,
-  '3': 0,
-  updateThing: function(name, val) {
-    this[name] = val;
-    if (name === 'bingo') {
-      console.log('bingo was his name o');
-      this[name] += ' was his name o';
+System.register("source1", ['test1'], function($__0) {
+  "use strict";
+  var __moduleName = "source1";
+  var hello = $traceurRuntime.ModuleStore.get($__0).hello;
+  var things = {
+    '1': 0,
+    '2': 0,
+    '3': 0,
+    updateThing: function(name, val) {
+      this[name] = val;
+      if (name === 'bingo') {
+        console.log('bingo was his name o');
+        this[name] += ' was his name o';
+      }
     }
-  }
-};
-__exports["default"] = {things: things};
+  };
+  var $__default = {things: things};
+  return {
+    get things() {
+      return things;
+    },
+    get default() {
+      return $__default;
+    }
+  };
+});

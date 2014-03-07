@@ -1,1 +1,25 @@
-{"version":3,"file":"http://localhost:8080/demo/source1.js","sources":["http://localhost:8080/demo/source1.js"],"names":[],"mappings":"AACA;AAEW,GAAA,OAAA,wBAAS;AAChB,KAAA,CAAK,EAAA;AACL,KAAA,CAAK,EAAA;AACL,KAAA,CAAK,EAAA;AAEL,aAAA,CAAa,SAAA,CAAU,IAAA,CAAM,IAAA,CAAK;AAC9B,QAAA,CAAK,IAAA,CAAA,EAAQ,IAAA;AAEb,MAAA,EAAI,IAAA,IAAS,QAAA,CAAS;AAClB,aAAA,CAAA,GAAW,CAAC,sBAAA,CAAA;AAEZ,UAAA,CAAK,IAAA,CAAA,GAAS,kBAAA;AAAA;AAAA;AAAA,CAAA;sBAMX,EACX,MAAA,CAAQ,OAAA,CAAA","sourcesContent":["\nimport { hello } from 'test1';\n\nexport var things = {\n    '1': 0,\n    '2': 0,\n    '3': 0,\n\n    updateThing: function (name, val) {\n        this[name] = val;\n\n        if (name === 'bingo') {\n            console.log('bingo was his name o');\n\n            this[name] += ' was his name o';\n        }\n    }\n\n};\n\nexport default {\n    things: things\n};"]}
+{
+    "version": 3,
+    "sources": [
+        "@traceur/generated/TemplateParser/4",
+        "http://localhost:8080/demo/source1.js",
+        "@traceur/generated/TemplateParser/3",
+        "@traceur/generated/TemplateParser/2",
+        "@traceur/generated/TemplateParser/5",
+        "@traceur/generated/TemplateParser/6",
+        "@traceur/generated/TemplateParser/1",
+        "@traceur/generated/TemplateParser/0"
+    ],
+    "names": [],
+    "mappings": "AAAA,MAAM,SAAS,aCCO,OAAO,ECD7B,UAAS,IAAiB;;ACAtB,CAAJ,IAAI,CAAA,YAAY,YAAoB,CAAC;aCArC,CAAA,eAAe,YAAY,IAAI,MAAmB;AHGvC,CAAJ,IAAI,CAAA,MAAM,EAAG;AAChB,CAAA,MAAG,CAAE,EAAC;AACN,CAAA,MAAG,CAAE,EAAC;AACN,CAAA,MAAG,CAAE,EAAC;AAEN,CAAA,cAAW,CAAE,UAAU,IAAI,CAAE,CAAA,GAAG,CAAE;AAC9B,CAAA,SAAI,CAAC,IAAI,CAAC,EAAG,IAAG,CAAC;CAEjB,SAAI,IAAI,IAAK,QAAO,CAAE;AAClB,CAAA,cAAO,IAAI,CAAC,sBAAsB,CAAC,CAAC;AAEpC,CAAA,WAAI,CAAC,IAAI,CAAC,GAAI,kBAAiB,CAAC;OACnC;CAAA,IACJ;CAAA,EAEJ,CAAC;AIlBE,CAAJ,IAAI,CAAA,UAAU,EJoBC,EACX,MAAM,CAAE,OAAM,CIrBgB,AJsBjC,CItBiC;CCAlC;CCAA,eAAwB;CAAE,mBAAyB;KAAE;CAArD,gBAAwB;CAAE,uBAAyB;KAAE;CAAA,GDA7B;CJEnB,CFFmE,CAAC;CCsBvE",
+    "sourcesContent": [
+        "System.register($__placeholder__0, $__placeholder__1, $__placeholder__2);",
+        "\nimport { hello } from 'test1';\n\nexport var things = {\n    '1': 0,\n    '2': 0,\n    '3': 0,\n\n    updateThing: function (name, val) {\n        this[name] = val;\n\n        if (name === 'bingo') {\n            console.log('bingo was his name o');\n\n            this[name] += ' was his name o';\n        }\n    }\n\n};\n\nexport default {\n    things: things\n};",
+        "function($__placeholder__0) {\n      $__placeholder__1\n    }",
+        "var __moduleName = $__placeholder__0;",
+        "$traceurRuntime.ModuleStore.get($__placeholder__0)",
+        "var $__default = $__placeholder__0",
+        "return $__placeholder__0",
+        "get $__placeholder__0() { return $__placeholder__1; }"
+    ]
+}
